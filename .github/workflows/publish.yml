@@ -16,12 +16,6 @@ jobs:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
-      issues: write
-      pull-requests: write
-      id-token: write
-
     strategy:
       matrix:
         node-version: [16.x]
@@ -34,11 +28,12 @@ jobs:
           node-version: 16.x
           cache: "npm"
 
-      - run: npm ci
+      - name: Install Dependencies
+        run: npm ci
+
       - name: Create Release Pull Request or Publish
         id: changesets
         uses: changesets/action@v1
-        with:
-          publish: npm run release
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
