@@ -20,7 +20,7 @@ const secondaryButtonStyles = `
 
 const warningButtonStyles = `
   background-color: #ffc107;
-  color: #000;
+  color: #fff;
 `;
 
 const StyledButton = styled.button<Partial<Props>>`
