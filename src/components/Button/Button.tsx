@@ -14,7 +14,7 @@ const primaryButtonStyles = `
 `;
 
 const secondaryButtonStyles = `
-  background-color: #6c757d;
+  background-color: #6c757f;
   color: #fff;
 `;
 
