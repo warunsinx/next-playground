@@ -24,7 +24,6 @@ const warningButtonStyles = `
 `;
 
 const StyledButton = styled.button<Partial<Props>>`
-  border: 1px solid #000;
   border-radius: 4px;
   cursor: pointer;
   font-size: 1rem;
