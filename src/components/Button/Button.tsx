@@ -72,7 +72,7 @@ const StyledButton = styled.button<Partial<Props>>`
 export default function Button({
   title,
   variant = "primary",
-  size = "md",
+  size = "sm",
   disabled = false,
 }: Props) {
   return (
