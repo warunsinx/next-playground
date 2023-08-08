@@ -1,5 +1,12 @@
 # next-playground
 
+## 3.1.0
+
+### Minor Changes
+
+- bfb682c: update button default size
+- c7591b5: update deafult variant
+
 ## 3.0.0
 
 ### Major Changes
