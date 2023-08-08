@@ -1,5 +1,11 @@
 # next-playground
 
+## 3.1.1
+
+### Patch Changes
+
+- 2cb80d9: Added signup form !
+
 ## 3.1.0
 
 ### Minor Changes
