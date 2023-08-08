@@ -1,5 +1,11 @@
 # next-playground
 
+## 3.0.0
+
+### Major Changes
+
+- fc9aa32: update button default size
+
 ## 2.0.0
 
 ### Major Changes
