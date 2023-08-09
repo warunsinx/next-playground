@@ -1,5 +1,11 @@
 # next-playground
 
+## 3.1.3
+
+### Patch Changes
+
+- cf819bc: Implemented some testing on the project.
+
 ## 3.1.2
 
 ### Patch Changes
