@@ -1,5 +1,11 @@
 # next-playground
 
+## 3.1.2
+
+### Patch Changes
+
+- 04d04bd: Added ABI Convert form
+
 ## 3.1.1
 
 ### Patch Changes
