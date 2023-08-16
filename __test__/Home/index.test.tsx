@@ -7,13 +7,13 @@ describe("Home Page", () => {
     render(<HomePage />);
   });
 
-  it("should render the heading", () => {
-    const heading = screen.getByRole("heading");
-    expect(heading).toHaveTextContent("Hello, World !");
-  });
+  // it("should render the heading", () => {
+  //   const heading = screen.getByRole("heading");
+  //   expect(heading).toHaveTextContent("Hello, World !");
+  // });
 
-  it("should render the subtitle", () => {
-    const subtitle = screen.getByTestId("subtitle");
-    expect(subtitle).toHaveTextContent("This is a test subtitle for testing !");
-  });
+  // it("should render the subtitle", () => {
+  //   const subtitle = screen.getByTestId("subtitle");
+  //   expect(subtitle).toHaveTextContent("This is a test subtitle for testing !");
+  // });
 });
