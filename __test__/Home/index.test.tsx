@@ -7,6 +7,11 @@ describe("Home Page", () => {
     render(<HomePage />);
   });
 
+  it("should render the countdown component", () => {
+    const countdown = screen.getByTestId("running-clock");
+    expect(countdown).toBeInTheDocument();
+  });
+
   // it("should render the heading", () => {
   //   const heading = screen.getByRole("heading");
   //   expect(heading).toHaveTextContent("Hello, World !");
