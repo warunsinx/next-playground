@@ -1,5 +1,11 @@
 # next-playground
 
+## 3.1.4
+
+### Patch Changes
+
+- 73c6245: Added wagmi + rainbowkit
+
 ## 3.1.3
 
 ### Patch Changes
