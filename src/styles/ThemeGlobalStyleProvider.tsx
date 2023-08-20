@@ -3,11 +3,10 @@ import theme from "./theme";
 import { ThemeProvider, createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-  body {
+  * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    line-height: 0;
     font-family: ${theme.typography.fontFamily};
     font-size: ${theme.typography.fontSize.medium};
   }
