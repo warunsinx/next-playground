@@ -33,10 +33,19 @@ const countReducer = (state: number, action: string) => {
   return state;
 };
 
+const x = { a: 1, b: 2 };
+
+const y = Object.values(x).reduce((prev, curr) => {
+  prev = prev + curr;
+  return prev;
+}, 0);
+
 export default function TestReact() {
   const addRef = useRef<any>();
   const [count, dispatchCount] = useReducer(countReducer, 0);
   const [count2, setCount2] = useState(20);
+
+  console.log({ y });
 
   console.log("render");
 
